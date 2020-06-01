@@ -1,0 +1,19 @@
+[
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "Message with modal button. REPLACE_ME"
+    },
+    "accessory": {
+      "type": "button",
+      "text": {
+        "type": "plain_text",
+        "text": "Button",
+        "emoji": true
+      },
+      "value": "click_me_123",
+      "action_id": "IN"
+    }
+  }
+]

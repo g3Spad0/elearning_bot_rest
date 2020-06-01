@@ -1,0 +1,33 @@
+[
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Ololo пыщь пыщь 3 REPLACE_ME"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "For more info, contact <support@acme.inc>"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Button",
+						"emoji": true
+					},
+					"value": "click_me_123",
+                    "action_id": "IN"
+				}
+			]
+		}
+	]

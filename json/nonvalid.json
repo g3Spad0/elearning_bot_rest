@@ -1,0 +1,80 @@
+[
+  {
+    "type": "context",
+    "elements": [
+      {
+        "type": "mrkdwn",
+        "text": "*Author:* T. M. Schwartz REPLACE_ME"
+      }
+    ]
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "section"
+    "text": {
+      "type": "plain_text",
+      "text": "This is a plain text section block.",
+      "emoji": true
+    }
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "plain_text",
+      "text": "This is a plain text section block.",
+      "emoji": true
+    }
+  },
+  {
+    "type": "context",
+    "elements": [
+      {
+        "type": "mrkdwn",
+        "text": "Last updated: Jan 1, 2019"
+      }
+    ]
+  }
+]
+
+
+
+{
+  "blocks": [
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "*Author:* T. M. Schwartz REPLACE_ME"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section"
+      "text": {
+        "type": "plain_text",
+        "text": "This is a plain text section block.",
+        "emoji": true
+      }
+      "text": {
+        "type": "plain_text",
+        "text": "This is a plain text section block.",
+        "emoji": true
+      }
+    },
+    {
+      "type": "context",
+      "elements": [
+        {
+          "type": "mrkdwn",
+          "text": "Last updated: Jan 1, 2019"
+        }
+      ]
+    }
+  ]
+}
