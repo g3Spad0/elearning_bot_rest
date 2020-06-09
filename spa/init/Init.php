@@ -6,7 +6,8 @@
 ini_set('default_charset', 'UTF-8');
 error_reporting(0);
 
-header('Access-Control-Allow-Origin: http://213.159.208.154:3000');
+//header('Access-Control-Allow-Origin: http://213.159.208.154:3000');
+header('Access-Control-Allow-Origin: http://localhost:3000');
 header('Access-Control-Allow-Credentials: true');
 header('Content-type: application/json');
 
@@ -15,6 +16,7 @@ define("PATH", $_SERVER['DOCUMENT_ROOT'] . "/spa/");
 require PATH . "db/DBConnection.php";
 
 $pdo = DBConnection::connect();
+
 
 session_start();
 
